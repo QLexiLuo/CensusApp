@@ -1,0 +1,13 @@
+---
+title: "README"
+author: "Lexi Luo"
+date: "10/14/2021"
+output: html_document
+---
+
+```{r}
+library(shiny)
+library(maps)
+library(mapproj) 
+runUrl( "http://pages.stat.wisc.edu/~karlrohe/ds479/code/census-app.zip")
+```
